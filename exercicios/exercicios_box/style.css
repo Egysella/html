@@ -1,0 +1,25 @@
+h1{
+    background-color: lightgray;
+    height: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: white; 
+    border: 10px;
+}
+div{
+    background-color: green;
+    border: 25px solid red;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color:darkgray;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}

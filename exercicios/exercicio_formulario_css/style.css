@@ -28,15 +28,18 @@ h3{
 }
 label{
     font-size: 15px;
-    font-family: Arial, Helvetica, sans
+    font-family: Arial;
 }
 button{
-    border: 3px solid
+
+    border-radius: 4px solid white;
     display: inline-block;
-    color: with
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 40px
 }
 input{
     margin: 10px 0 10px 0;
     color:rgb(243, 194, 243);
-    border: 2px darkorchid
+    border: 2px darkorchid;
 }

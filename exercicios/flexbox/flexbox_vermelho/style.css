@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+}
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+.item{
+    height: 200px;
+    box-shadow: -10px 10px rgb(231, 9, 9);
+    border: 5px solid red;
+    margin: 25px;
+    display: inline-flex;
+}
+body{
+    margin: 50px;
+    background-color:white;
+}

@@ -6,3 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangulo</title>
     
+</head>
+<body>
+    <h1>Adivinhando que triangulo é esse!</h1>
+    <script>function triangulo(){
+        let ladoA = parseInt(prompt(`Digite o 1º lado: `))
+        let ladoB = parseInt(prompt(`Digite o 2º lado: `))
+        let ladoC = parseInt(prompt(`Digite o 3º lado: `))
+    
+        if(ladoA < (ladoB+ladoC) && ladoB < (ladoA+ladoC) && ladoC < (ladoA+ladoB)){
+                alert(`Vamos descobri que triangulo é?`)
+    
+            if(ladoA == ladoB && ladoB == ladoC){
+                alert(`Este é um triangulo equilátero`)
+            }else if(ladoA == ladoB || ladoA == ladoC || ladoC == ladoB){
+                alert (`Este é um triangulo isósceles`)
+            }else{
+                alert (`Isto é um triangulo escaleno`)
+            }
+        }else {
+            alert(`Isso não é um triangulo`)
+        }
+    }
+    triangulo();
+    </script>
+</body>
+</html>
